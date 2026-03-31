@@ -45,10 +45,12 @@ Majority passengers of Pclass 3 did not survive.
 
 ## Column Seletion:
 For features, all columns expect `Survived`, `Name`, `Ticket`, `Cabin`
+
 For target, `Survived`
 
 ## Preprocessor Steps
 For numerical columns, I used `SimpleImputer` and `StandardScaler`.
+
 For categorical columns, I only used `OneHotEncoding`. Imputer was not needed.
 
 
